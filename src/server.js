@@ -17,6 +17,8 @@ app.get('/other', (req, res) => {
   res.send(content)
 });
 
+app.use('/html', express.static(__dirname + '/html'));
+
 app.listen(port, () => {
   console.log(`Listening on port: ${port}`)
 });
