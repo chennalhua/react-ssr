@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://chennalhua.github.io/react-ssr/",
   "scripts": {
     "dev": "set NODE_OPTIONS=--openssl-legacy-provider&npm-run-all --parallel dev:build:* dev:server ",
     "dev:server": "nodemon --inspect build/bundle.js",
